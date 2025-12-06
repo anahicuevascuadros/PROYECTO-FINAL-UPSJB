@@ -1,0 +1,19 @@
+---
+title: "SEMANA8"
+author: "ANAHI_CUEVAS"
+format: html
+editor: visual
+---
+
+```{r}
+#ISTALAMOS PAQUETE 
+install.packages("ggplot2")
+library(ggplot2)
+```
+
+```{r}
+#histograma
+ggplot(data, aes(x = `severidad`)) +
+  geom_histogram(bins = 30) +
+  theme_minimal()
+```
