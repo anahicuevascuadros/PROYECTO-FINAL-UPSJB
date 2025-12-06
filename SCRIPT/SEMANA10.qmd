@@ -1,0 +1,23 @@
+---
+title: "SEMANA10"
+author: "ANAHI_CUEVAS"
+format: html
+editor: visual
+---
+
+MEDIDAS DE TENDENCIA CENTRAL
+
+```{r}
+#media rimetica
+mean(data$severidad)
+```
+
+```{r}
+#mediana
+median(data$severidad)
+```
+
+```{r}
+#moda
+mode_severidad<-names(sort(table(data$severidad),decreasing = TRUE))
+```
