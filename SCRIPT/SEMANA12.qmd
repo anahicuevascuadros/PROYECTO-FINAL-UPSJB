@@ -1,0 +1,29 @@
+---
+title: "SEMANA12"
+author: "ANAHI_CUEVAS"
+format: html
+editor: visual
+---
+
+## MEDIDAD DE DISPERSION
+
+```{r}
+#varianza
+var(data$severidad,na.rm = TRUE)
+```
+
+```{r}
+#desviacion standart
+sd(data$severidad,na.rm = TRUE)
+```
+
+```{r}
+#rango
+range(data$severidad,na.rm = TRUE)
+```
+
+```{r}
+#rango intercuartilico
+IQR(data$severidad,na.rm = TRUE)
+
+```
